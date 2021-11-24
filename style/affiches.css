@@ -1,0 +1,103 @@
+html,body {
+	margin:0;
+	padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5em;
+    background-color:#9AA1E7;
+}
+
+#affiches{
+    position:absolute;
+    color:white;
+    font-size:5.5vw;
+    text-align:center;
+    width:30vw;
+    border:solid 0.1em white;
+    background-color:#7479AD;
+    left:50%;
+    margin-left:-15vw;
+    top:3%;
+}
+
+#photo1, #photo2, #photo3{
+    position:absolute;
+    width:20vw;
+    height:auto;
+    top:30%;
+}
+
+#photo1{
+    left:7vw;
+    
+}
+
+#photo2{
+    left:50%;
+    margin-left:-10vw;
+}
+
+#photo3{
+    right:7vw;
+}
+
+img{
+    width:20vw;
+    height:auto;
+    border:solid 1vw #7479AD;
+}
+
+#retour{
+    position:absolute;
+text-align:center;
+color:white;
+font-size:5vw;
+top:2vw;
+left:2vw;
+transition:all 0.5s ease-in-out;
+}
+
+#retour:hover{
+    color:#E7E09A;
+    font-size:7vw;
+}
+
+@media screen and (max-width:767px){
+    #affiches{
+        width:45%;
+        left:27.5%;
+        margin:0;
+        height:8vh;
+        font-size:9vw;
+        padding-top:2.1vh;
+    }
+
+    #retour{
+        font-size:6vw;
+        top:6%;
+    }
+
+    img{
+        width:30vw;
+        height:auto;
+    }
+
+    #photo1, #photo2, #photo3{
+        left:35vw;
+        margin:0;
+        right:0;
+    }
+
+    #photo1{
+        top:18%;
+        
+    }
+
+    #photo2{
+        top:45%;
+    }
+    #photo3{
+        top:72%;
+    }
+
+
+}

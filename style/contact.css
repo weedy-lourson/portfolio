@@ -43,12 +43,12 @@ html, body {
 
     #home2:hover{
     color:rgb(167, 101, 86);
-    font-size:7vw;
+    font-size:6vw;
     }
     
     #home:hover{
     color:rgb(167, 101, 86);
-    font-size:7vw;
+    font-size:6vw;
     }
 
     img{
@@ -82,12 +82,12 @@ html, body {
     
     
     #home{
-        font-size:6vw;
+        font-size:5vw;
         top:6%;
     }
     
     #home2{
-        font-size:6vw;
+        font-size:5vw;
         top:6%;
     }
 

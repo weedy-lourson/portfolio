@@ -1,0 +1,177 @@
+html,body {
+	margin:0;
+	padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5em;
+    background-color:#5698A7;
+}
+
+#about{
+    position:absolute;
+    color:white;
+    font-size:6vw;
+    text-align:center;
+    width:35vw;
+    border:solid 0.1em white;
+    left:50%;
+    margin-left:-17.5vw;
+    top:3%;
+}
+
+#home{
+    position:absolute;
+    text-align:center;
+    color:white;
+    font-size:5vw;
+    top:5vw;
+    left:5vw;
+    transition:all 0.5s ease-in-out;
+    }
+    
+#home2{
+    position:absolute;
+    text-align:center;
+    color:white;
+    font-size:5vw;
+    top:5vw;
+    right:5vw; 
+    transition:all 0.5s ease-in-out;
+}
+
+    #home2:hover{
+    color:rgb(167, 101, 86);
+    font-size:6vw;
+    }
+    
+    #home:hover{
+    color:rgb(167, 101, 86);
+    font-size:6vw;
+    }
+
+    #text1{
+        position:absolute;
+        font-size:2vw;
+        height:22vw;
+        width:10vw;
+        top:30vh;
+        left:22%;
+        border:solid 1vw rgb(167, 101, 86);
+        text-align:center;
+        padding:2vh 1vw 0 1vw;
+        color:rgb(167, 101, 86);
+        background-color:rgb(261, 254, 184);
+    }
+
+    #text2{
+        position:absolute;
+        font-size:1.5vw;
+        height:22vw;
+        width:10vw;
+        top:30vh;
+        right:20%;
+        border:solid 1vw rgb(167, 101, 86);
+        text-align:center;
+        padding:2vh 1vw 0 1vw;
+        color:rgb(167, 101, 86);
+        background-color:rgb(261, 254, 184);
+    }
+
+
+#cv{
+    position:absolute;
+    font-size:3vw;
+    height:15vw;
+    width:16vw;
+    top:35vh;
+    left:1%;
+    border:solid 1vw rgb(261, 254, 184);
+    text-align:center;
+    padding:1vh 1vw 0 1vh;
+    color:rgb(261, 254, 184);
+    background-color:rgb(167, 101, 86);
+}
+
+#moi img{
+    position:absolute;
+    width:20vw;
+    height:auto;
+    top:25vh;
+    left:50%;
+    margin-left:-10vw;
+    border:solid 1vw rgb(167, 101, 86);
+    padding:0;
+}
+
+#text3{
+    position:absolute;
+        font-size:1.5vw;
+        height:21vw;
+        width:10vw;
+        top:30vh;
+        right:1%;
+        border:solid 1vw rgb(167, 101, 86);
+        text-align:center;
+        padding:2.5vh 1vw 0 1vw;
+        color:rgb(167, 101, 86);
+        background-color:rgb(261, 254, 184);
+}
+
+@media screen and (max-width:767px){
+    #about{
+        width:45%;
+        left:27.5%;
+        margin:0;
+        height:8vh;
+        font-size:9vw;
+        padding-top:2.1vh;
+    }
+
+
+
+#home{
+    font-size:5vw;
+    top:6%;
+}
+
+#home2{
+    font-size:5vw;
+    top:6%;
+}
+
+#text1{
+    width:50vw;
+    top:17%;
+    height:auto;
+    padding:1vh;
+    font-size:2.2vw;
+}
+
+#moi img{
+    width:40vw;
+    height:auto;
+    left:30vw;
+    margin:0;
+    
+}
+
+#text2{
+left:7%;
+width:15vw;
+height:auto;
+font-size:2.5vw;
+}
+
+#text3{
+    right:5%;
+    width:15vw;
+    height:auto;
+    font-size:2.5vw;  
+    padding:2vh 1vw 2vh 1vw;
+}
+
+#cv{
+    top:62%;
+    left:42vw;
+}
+
+}
